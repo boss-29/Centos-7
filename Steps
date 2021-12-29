@@ -1,0 +1,14 @@
+I am trying to make this as simple as possible. The first thing you have to make sure is don't skip any part and read everything before you enter any command.
+lets get started
+First step is login through root user
+(Make sure you are connected to internet)
+the next step is to install "epel"
+yum install epel-release.noarch
+yum update epel-release.noarch
+yum install bash*
+yum install vim
+yum install nano (if you prefer nano editor)
+yum install net-tools
+yum group list (check the groups select if you want GNOME or any other)
+i am selecting MATE Desktop
+yum groups install "MATE Desktop"
